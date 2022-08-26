@@ -1,5 +1,3 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import { FC } from 'react';
 import { colors, fontSizes, spacingSizes } from 'src/styles/Tokens';

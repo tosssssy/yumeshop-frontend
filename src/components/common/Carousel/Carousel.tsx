@@ -36,7 +36,6 @@ export const Carousel: FC<CarouselProps> = ({
       <div ref={viewportRef} css={{ overflow: 'hidden' }}>
         <ul css={{ display: 'flex', listStyleType: 'none' }}>
           {children.map((child, index) => (
-            // eslint-disable-next-line react/no-array-index-key
             <li key={index}>{child}</li>
           ))}
         </ul>
@@ -57,6 +56,7 @@ export const Carousel: FC<CarouselProps> = ({
           {scrollSnaps.map((_, index) => (
             // eslint-disable-next-line jsx-a11y/control-has-associated-label
             <button
+              key={index}
               css={{
                 width: 15,
                 height: 15,

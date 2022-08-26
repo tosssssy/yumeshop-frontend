@@ -58,7 +58,8 @@ module.exports = {
       "specialLink": ["hrefLeft", "hrefRight"],
       "aspects": ["noHref", "invalidHref", "preferButton"]
     }],
-    "react/require-default-props":"off"
+    "react/require-default-props":"off",
+    "react/no-array-index-key":"off"
   },
   overrides: [
     {
